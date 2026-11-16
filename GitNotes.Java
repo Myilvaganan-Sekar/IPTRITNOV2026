@@ -71,6 +71,45 @@ C:\Users\myilv\Automation2026>git init
 Initialized empty Git repository in C:/Users/myilv/Automation2026/.git/
 
 
+Step 2: Save the file to local repo [git commit]
+comment: git commit -m "message"
+
+
+Repo URL: https://github.com/Myilvaganan-Sekar/IPTRITNOV2026.git
+
+Step 3: 
+Configure to Remote repo [URL]
+
+git remote add origin RepoURL
+
+Step 4: keep the local and remote repo default branch name as Same
+git branch -M main
+
+Step 5: Local Repo to remote repo [Code]
+git push -u origin main
+
+Step 6: Create your own branch from remote repo
+After login --> go to your repo --> branch --> new branch
+
+Step 7: Get the latest code before start developing your automation script from
+main branch
+git status
+
+git pull
+
+Step 8: Switch to your branch to develop your automation script
+git checkout branchName
+
+git status
+
+Step 9: 
+Start to dev the code from your branch
+
+
+
+
+
+
 
 
 
